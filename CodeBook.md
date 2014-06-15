@@ -52,13 +52,13 @@ Mean and standard deviation were estimated from these signals and used as a base
 in the tidymean dataset (below) provide the average for each mean/standard deviation variable based on the unique subject performing 
 an identified activity:
 
- [3] "tBodyAcc.mean.X"              
- [4] "tBodyAcc.mean.Y"              
- [5] "tBodyAcc.mean.Z"              
- [6] "tGravityAcc.mean.X"           
- [7] "tGravityAcc.mean.Y"           
- [8] "tGravityAcc.mean.Z"           
- [9] "tBodyAccJerk.mean.X"          
+  [3] "tBodyAcc.mean.X"              
+  [4] "tBodyAcc.mean.Y"              
+  [5] "tBodyAcc.mean.Z"              
+  [6] "tGravityAcc.mean.X"           
+  [7] "tGravityAcc.mean.Y"           
+  [8] "tGravityAcc.mean.Z"           
+  [9] "tBodyAccJerk.mean.X"          
 [10] "tBodyAccJerk.mean.Y"          
 [11] "tBodyAccJerk.mean.Z"          
 [12] "tBodyGyro.mean.X"             
@@ -131,4 +131,5 @@ an identified activity:
 [79] "fBodyBodyAccJerkMag.std"      
 [80] "fBodyBodyGyroMag.std"         
 [81] "fBodyBodyGyroJerkMag.std"
+
 
