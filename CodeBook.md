@@ -82,23 +82,41 @@ an identified activity:
 [30] "fBodyAccJerk.mean.Y"          
 [31] "fBodyAccJerk.mean.Z"          
 [32] "fBodyAccJerk.meanFreq.X"
+
 [33] "fBodyAccJerk.meanFreq.Y"
+
 [34] "fBodyAccJerk.meanFreq.Z"
+
 [35] "fBodyGyro.mean.X"
+
 [36] "fBodyGyro.mean.Y"
+
 [37] "fBodyGyro.mean.Z"
+
 [38] "fBodyGyro.meanFreq.X"
+
 [39] "fBodyGyro.meanFreq.Y"
+
 [40] "fBodyGyro.meanFreq.Z"
+
 [41] "fBodyAccMag.mean"
+
 [42] "fBodyAccMag.meanFreq"
+
 [43] "fBodyBodyAccJerkMag.mean"
+
 [44] "fBodyBodyAccJerkMag.meanFreq"
+
 [45] "fBodyBodyGyroMag.mean"
+
 [46] "fBodyBodyGyroMag.meanFreq"
+
 [47] "fBodyBodyGyroJerkMag.mean"
+
 [48] "fBodyBodyGyroJerkMag.meanFreq"
-[49] "tBodyAcc.std.X"               
+
+[49] "tBodyAcc.std.X"       
+
 [50] "tBodyAcc.std.Y"               
 [51] "tBodyAcc.std.Z"               
 [52] "tGravityAcc.std.X"            
