@@ -45,9 +45,10 @@ the tidymean dataset described under the "Deliverables" section below:
 - 'activity_labels.txt': Links the class labels with their activity name.
 - 'train/X_train.txt': Training set.
 - 'train/y_train.txt': Training labels.
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each train sample.
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
+- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each test sample.
 
 Prior to running the run_analysis.R script, the raw files above should be unzipped into a folder in your working directory titled "UCI HAR Dataset"
 (including the subfolders "train" and "test" as described in the files above).  The packages "reshape2" and "utils" should also be installed. 
