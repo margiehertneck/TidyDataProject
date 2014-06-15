@@ -40,7 +40,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The raw dataset includes the following files in a txt format; these files were used to create 
 the tidymean dataset described under the "Deliverables" section below:
 
-- 'README.txt'
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
