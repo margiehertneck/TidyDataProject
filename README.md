@@ -51,7 +51,8 @@ the tidymean dataset described under the "Deliverables" section below:
 - 'test/y_test.txt': Test labels.
 
 Prior to running the run_analysis.R script, the raw files above should be unzipped into a folder in your working directory titled "UCI HAR Dataset"
-(including the subfolders "train" and "test" as described in the files above).  The packages "reshape2" and "utils" should also be installed.
+(including the subfolders "train" and "test" as described in the files above).  The packages "reshape2" and "utils" should also be installed. 
+To run the script on your own computer, you will need to open the script and change the "path" object to your working directory.
 
 The run_analysis.R function performs the following actions:
 
