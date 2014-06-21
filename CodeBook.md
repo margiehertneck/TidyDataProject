@@ -32,11 +32,13 @@ and the (mean) average for each variable within the subject & activity parameter
 
 [2] "subject" variable includes integers from 1 to 30, indicating unique study subjects.  
 
-The remaining numeric variables are labeled based on the following description, which refers to the raw dataset variables prior to running 
-the run_analysis.R script.  The naming of the tidymean dataset variables stem from the described naming convention below and should be
-clear to the audience after review:
+Variables [3] through [81]:
 
-The variables selected for this dataset come from the accelerometer and gyroscope 3-axial raw signals tAcc.XYZ and tGyro.XYZ. 
+**The variable names in the tidymean dataset were kept somewhat short to facilitate working with the variables in the script.**  
+Familiarity with the following three paragraphs, which describe the data and what they represent, will make working with 
+the variable names easier. Actual variable names are provided after the descriptions.
+
+The variables selected from the *raw* dataset come from the accelerometer and gyroscope 3-axial raw signals tAcc.XYZ and tGyro.XYZ. 
 These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter 
 and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then 
 separated into body and gravity acceleration signals (tBodyAcc.XYZ and tGravityAcc.XYZ) using another low pass Butterworth filter 
@@ -46,11 +48,15 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 and tBodyGyroJerk.XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, 
 tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).  Finally a Fast Fourier Transform (FFT) was applied to some of 
 these signals producing fBodyAcc.XYZ, fBodyAccJerk.XYZ, fBodyGyro.XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag 
-(Note the 'f' prefix indicates frequency domain signals).  These signals were used to estimate variables of the feature vector for each pattern.  
+(Note the 'f' prefix indicates frequency domain signals).  These signals were used to estimate variables of the feature vector for each pattern *in the raw dataset*.  
 
-Mean and standard deviation were estimated from these signals and used as a base to create the tidymean dataset. The numeric variables 
-in the tidymean dataset (below) provide the average for each mean/standard deviation variable based on the unique subject performing 
-an identified activity:
+**Mean and standard deviation were estimated from these signals in the raw dataset; the mean and standard deviation variables from the raw dataset
+were used as a base to create the tidymean dataset.**  The numeric variables in the tidymean dataset (below) provide the average for each 
+mean/standard deviation variable based on the unique *subject* performing an identified *activity*.  Because the course assignment indicates 
+*calculating the average for the mean and standard deviation variables*, the tidymean dataset also includes averages for variables pulled from the raw dataset 
+that indicated "meanfreq" or the weighted average of the frequency components.  
+
+Numeric variable names for the tidymean dataset are listed below:
 
   [3] "tBodyAcc.mean.X"              
   [4] "tBodyAcc.mean.Y"              
